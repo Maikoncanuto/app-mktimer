@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MKTimer</string>
+
+    <!-- Activity Timer principal -->
+    <string name="app_timer_label">00:00:000</string>
+    <string name="app_btn_timer_start">Iniciar</string>
+    <string name="app_btn_timer_stop">Parar</string>
+    <string name="app_btn_reset">Reiniciar</string>
+
+    <!-- Description -->
+    <string name="app_timer_description">Tempo percorrido</string>
+    <string name="app_btn_timer_start_description">Iniciar contador</string>
+    <string name="app_btn_timer_stop_description">Parar contador</string>
+    <string name="app_btn_reset_description">Resetar contador</string>
+
+</resources>

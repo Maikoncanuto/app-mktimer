@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWindownBackground">#0c0c0c</color>
+
+    <color name="colorBtnStart">#008000</color>
+    <color name="colorBtnStop">#FF0000</color>
+    <color name="colorBtnReset">#fff</color>
+</resources>

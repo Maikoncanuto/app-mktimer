@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.timer.mk.mktimer.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/timer_label"
+        android:layout_marginTop="50dp"
+        android:text="Min"
+        android:textColor="?android:attr/textColorSecondaryInverse" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mil"
+        android:textColor="?android:attr/textColorSecondaryInverse"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/btn_timer_stop"
+        android:layout_marginStart="12dp" />
+
+    <TextView
+        android:id="@+id/timer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:shadowColor="@android:color/holo_blue_dark"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="1.0"
+        android:text="@string/app_timer_label"
+        android:textAllCaps="true"
+        android:textColor="@color/colorWindownBackground"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <Button
+        android:id="@+id/btn_timer_start"
+        style="@style/Base.Widget.AppCompat.CompoundButton.RadioButton"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btn_start_border"
+        android:elevation="0dp"
+        android:text="@string/app_btn_timer_start"
+        android:textAlignment="center"
+        android:textColor="@color/colorBtnStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignStart="@+id/timer_label"
+        android:layout_alignTop="@+id/btn_timer_stop" />
+
+    <Button
+        android:id="@+id/btn_timer_stop"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/btn_stop_border"
+        android:elevation="0dp"
+        android:text="@string/app_btn_timer_stop"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBtnStop"
+        android:textSize="18sp"
+        android:layout_below="@+id/timer_label"
+        android:layout_alignEnd="@+id/timer_label"
+        android:layout_marginTop="87dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignEnd="@+id/btn_timer_start"
+        android:text="Seg"
+        android:textColor="?android:attr/textColorSecondaryInverse" />
+
+    <Button
+        android:id="@+id/btn_timer_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_reset_border"
+        android:text="@string/app_btn_reset"
+        android:textAllCaps="false"
+        android:textColor="@color/colorBtnReset"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="54dp" />
+
+</RelativeLayout>
